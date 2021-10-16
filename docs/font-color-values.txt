@@ -1,0 +1,4 @@
+body background - #FAFAFA;
+h1/span - PT Serif
+h2/p - Poppins
+footer - Montserrat #A9A9A9;
