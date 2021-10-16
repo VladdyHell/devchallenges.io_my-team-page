@@ -25,7 +25,6 @@ section.content {
     font-weight: 700;
     font-size: 3.44rem;
     margin-bottom: 4rem;
-    /* margin-bottom: calc(1rem + 24px); */
 }
 .text-container h2 {
     text-transform: uppercase;
@@ -40,7 +39,6 @@ section.content {
 
 .imgs {
     display: grid;
-    /* grid-template-areas: "1  2" "3  4" "5  6"; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0 1rem;
@@ -50,6 +48,7 @@ section.content {
 
 img {
     width: 14rem;
+    height: 20.8rem;
     margin-bottom: -1rem;
 }
 
@@ -79,30 +78,6 @@ figure {
 .imgs figure:nth-child(4) span, 
 .imgs figure:nth-child(6) span {
     padding-top: 4.8rem;
-}
-
-.imgs figure:nth-child(1) {
-    /* grid-area: 1; */
-}
-
-.imgs figure:nth-child(2) {
-    /* grid-area: 2; */
-}
-
-.imgs figure:nth-child(3) {
-    /* grid-area: 3; */
-}
-
-.imgs figure:nth-child(4) {
-    /* grid-area: 4; */
-}
-
-.imgs figure:nth-child(5) {
-    /* grid-area: 5; */
-}
-
-.imgs figure:nth-child(6) {
-    /* grid-area: 6; */
 }
 
 footer {
