@@ -50,10 +50,13 @@ section.content {
 
 img {
     width: 14rem;
-    margin-bottom: -.6rem;
+    margin-bottom: -1rem;
 }
 
-figure {margin: 0;}
+figure {
+    margin: 0; 
+    position: relative
+}
 
 .imgs figure figcaption h3 {
     text-transform: capitalize;
@@ -62,9 +65,19 @@ figure {margin: 0;}
 
 .imgs figure figcaption span {
     text-transform: uppercase;
+    position: absolute;
+    right: 1.2rem;
+    top: 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 
-.imgs figure:nth-child(2), .imgs figure:nth-child(4), .imgs figure:nth-child(6) {
+.imgs figure:nth-child(2), 
+.imgs figure:nth-child(4), 
+.imgs figure:nth-child(6), 
+.imgs figure:nth-child(2) span, 
+.imgs figure:nth-child(4) span, 
+.imgs figure:nth-child(6) span {
     padding-top: 4.8rem;
 }
 
