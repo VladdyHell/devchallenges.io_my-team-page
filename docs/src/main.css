@@ -9,12 +9,15 @@ body {
     padding: 0;
 }
 section.content {
-    margin: 82px 10px 116px;
+    padding: 5.2rem 10px 116px;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 .text-container {
     margin-bottom: 6rem;
+    max-width: 57.6rem;
+    margin: 0 auto 6.4rem;
 }
 
 .text-container h1, .imgs figcaption span {
@@ -23,7 +26,7 @@ section.content {
 
 .text-container h1 {
     font-weight: 700;
-    font-size: 3.44rem;
+    font-size: 3.4rem;
     margin-bottom: 4rem;
 }
 .text-container h2 {
@@ -34,7 +37,7 @@ section.content {
 }
 
 .text-container p {
-    font-size: 1.46rem;
+    font-size: 1.4496rem;
 }
 
 .imgs {
@@ -44,6 +47,8 @@ section.content {
     gap: 0 1rem;
     padding: 0;
     margin: 0 0 0 1rem;
+    max-width: 57.6rem;
+    margin: 0 auto;
 }
 
 img {
