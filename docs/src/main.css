@@ -23,7 +23,7 @@ section.content {
 
 @media (min-width: 1376px) {
     section.content {
-        padding: 11.84rem 1rem 11.6rem;
+        padding: 12.8rem 0 11.6rem;
     }
 }
 
@@ -36,7 +36,7 @@ section.content {
 @media (min-width: 1376px) {
     .text-container {
         display: flex;
-        max-width: 99.2rem;
+        max-width: 92.8rem;
     }
 }
 
@@ -51,6 +51,10 @@ section.content {
 }
 
 @media(min-width: 1376px){
+    .text-container h1{
+        letter-spacing: -.2rem;
+        font-size: 3.6rem;
+    }
     .text-container h1, .text-container .right-col {
         width: 49.6rem;
     }
@@ -64,6 +68,9 @@ section.content {
 }
 
 @media(min-width: 1376px) {
+    .text-container h2 {
+        font-size: 1.76rem;
+    }
     .text-container h1, .text-container h2 {
         margin-top: 0;
     }
@@ -71,6 +78,16 @@ section.content {
 
 .text-container p {
     font-size: 1.4496rem;
+}
+
+@media (min-width: 1376px) {
+    .text-container h2, .text-container p {
+        margin-right: 7.6rem;
+        margin-left: 0.4rem;
+    }
+    .text-container p {
+        font-size: 1.8rem;
+    }
 }
 
 .imgs {
