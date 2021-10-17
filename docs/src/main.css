@@ -4,6 +4,13 @@
     margin: 0;
     font-size: 10px;
 }
+
+@media (min-width: 1376px) {
+    :root {
+        font-size: 10px;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,10 +21,23 @@ section.content {
     font-family: 'Poppins', sans-serif;
 }
 
+@media (min-width: 1376px) {
+    section.content {
+        padding: 11.84rem 1rem 11.6rem;
+    }
+}
+
 .text-container {
     margin-bottom: 6rem;
     max-width: 57.6rem;
     margin: 0 auto 6.4rem;
+}
+
+@media (min-width: 1376px) {
+    .text-container {
+        display: flex;
+        max-width: 99.2rem;
+    }
 }
 
 .text-container h1, .imgs figcaption span {
@@ -29,11 +49,24 @@ section.content {
     font-size: 3.4rem;
     margin-bottom: 4rem;
 }
+
+@media(min-width: 1376px){
+    .text-container h1, .text-container .right-col {
+        width: 49.6rem;
+    }
+}
+
 .text-container h2 {
     text-transform: uppercase;
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: calc(1rem - 16px);
+}
+
+@media(min-width: 1376px) {
+    .text-container h1, .text-container h2 {
+        margin-top: 0;
+    }
 }
 
 .text-container p {
