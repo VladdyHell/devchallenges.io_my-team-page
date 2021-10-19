@@ -44,7 +44,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 I used advanced CSS properties, layout systems such as text orientation, grid system, relative unit 'REM', and media queries. I also used a browser extension for measuring pixel dimensions so that it makes it faster to specify without eye-ing because I'm so bad at eye-ing. And I also used semantical elements.
 
-- 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
